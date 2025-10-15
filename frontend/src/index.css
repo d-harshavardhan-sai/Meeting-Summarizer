@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #FF6B6B, #FFD93D); /* Red to yellow gradient */
+  color: #1F2937; /* Dark gray for contrast */
+}
+
+/* Smooth scroll for better UX */
+html {
+  scroll-behavior: smooth;
+}
